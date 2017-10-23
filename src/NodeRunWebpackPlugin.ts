@@ -43,7 +43,7 @@ export default class NodeRunWebpackPlugin implements Plugin {
   private process: ChildProcess | null;
   private options: OptionsWithDefaults;
 
-  constructor(options: Options) {
+  constructor(options: Options = {}) {
     this.options = Object.assign({}, defaultOptions, options);
     this.isWebpackWatching = false;
     this.process = null;
@@ -89,7 +89,7 @@ export default class NodeRunWebpackPlugin implements Plugin {
       this.options.outputPath = compiler.options.output && compiler.options.output.path;
     }
 
-    if (!this.options.outputPath) {
+    if (!this.options.context) {
       if (!compiler.options.context) {
         throw new Error('Undefined "context" webpack option.');
       }

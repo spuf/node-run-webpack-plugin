@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`watch mode basic 1`] = `""`;
+
+exports[`watch mode basic 2`] = `
+"
+Webpack is watching the files…
+
+# Run server build/index.js
+main Start
+main End
+"
+`;
+
+exports[`watch mode with touch 1`] = `""`;
+
+exports[`watch mode with touch 2`] = `
+"
+Webpack is watching the files…
+
+# Run server build/index.js
+main Start
+# Changed main.js, recompiling server...
+# Stopping server...
+# Run server build/index.js
+main Start
+main End
+"
+`;

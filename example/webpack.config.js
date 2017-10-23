@@ -10,5 +10,10 @@ module.exports = {
     filename: 'index.js'
   },
   plugins: [new NodeRunWebpackPlugin()],
-  stats: 'errors-only'
+  stats: 'errors-only',
+  watchOptions: {
+    aggregateTimeout: 1000,
+    poll: 1000,
+    ignored: '!**/main.js'
+  }
 };
