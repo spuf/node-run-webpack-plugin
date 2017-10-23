@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`apply return void 1`] = `
+NodeRunWebpackPlugin {
+  "isWebpackWatching": false,
+  "options": Object {
+    "context": "context",
+    "onChange": [Function],
+    "onError": [Function],
+    "onStart": [Function],
+    "onStop": [Function],
+    "outputFilename": "index.js",
+    "outputPath": "path",
+  },
+  "process": null,
+}
+`;
+
+exports[`constructor get context from options 1`] = `
+NodeRunWebpackPlugin {
+  "isWebpackWatching": false,
+  "options": Object {
+    "context": "context",
+    "onChange": [Function],
+    "onError": [Function],
+    "onStart": [Function],
+    "onStop": [Function],
+    "outputFilename": "index.js",
+    "outputPath": "path",
+  },
+  "process": null,
+}
+`;
+
+exports[`constructor get path from options 1`] = `
+NodeRunWebpackPlugin {
+  "isWebpackWatching": false,
+  "options": Object {
+    "context": "context",
+    "onChange": [Function],
+    "onError": [Function],
+    "onStart": [Function],
+    "onStop": [Function],
+    "outputFilename": "index.js",
+    "outputPath": "path",
+  },
+  "process": null,
+}
+`;
+
+exports[`constructor work with params 1`] = `
+NodeRunWebpackPlugin {
+  "isWebpackWatching": false,
+  "options": Object {
+    "onChange": [Function],
+    "onError": [Function],
+    "onStart": [Function],
+    "onStop": [Function],
+    "outputFilename": "server.js",
+  },
+  "process": null,
+}
+`;
+
+exports[`constructor work without params 1`] = `
+NodeRunWebpackPlugin {
+  "isWebpackWatching": false,
+  "options": Object {
+    "onChange": [Function],
+    "onError": [Function],
+    "onStart": [Function],
+    "onStop": [Function],
+    "outputFilename": "index.js",
+  },
+  "process": null,
+}
+`;
