@@ -1,0 +1,35 @@
+{
+  "name": "node-run-webpack-plugin",
+  "description": "Node run Webpack plugin",
+  "keywords": ["node", "webpack", "watch"],
+  "author": "Arseny Razin <spufru@gmail.com>",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/spuf/node-run-webpack-plugin",
+    "type": "git"
+  },
+  "files": ["dist"],
+  "main": "dist/NodeRunWebpackPlugin.js",
+  "peerDependencies": {
+    "webpack": "^3.8.1"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "exit 0",
+    "prettier": "prettier --write 'src/**/*' 'example/webpack.config.js'",
+    "clean": "rimraf dist example/build"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.46",
+    "@types/webpack": "^3.0.13",
+    "prettier": "^1.7.4",
+    "rimraf": "^2.6.2",
+    "typescript": "^2.5.3",
+    "webpack": "^3.8.1"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "singleQuote": true
+  }
+}
