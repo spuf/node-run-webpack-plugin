@@ -1,15 +1,21 @@
 {
   "name": "node-run-webpack-plugin",
   "description": "Node run Webpack plugin",
-  "keywords": ["node", "webpack", "watch"],
+  "keywords": [
+    "node",
+    "webpack",
+    "watch"
+  ],
   "author": "Arseny Razin <spufru@gmail.com>",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "repository": {
     "url": "https://github.com/spuf/node-run-webpack-plugin",
     "type": "git"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "dist/NodeRunWebpackPlugin.js",
   "peerDependencies": {
     "webpack": ">=3"
@@ -44,8 +50,14 @@
     "transform": {
       "^.+\\.ts$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
     },
-    "testMatch": ["**/__tests__/**/*.ts"],
-    "moduleFileExtensions": ["ts", "js", "json"],
+    "testMatch": [
+      "**/__tests__/**/*.ts"
+    ],
+    "moduleFileExtensions": [
+      "ts",
+      "js",
+      "json"
+    ],
     "mapCoverage": true
   }
 }
