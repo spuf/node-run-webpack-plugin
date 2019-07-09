@@ -11,6 +11,9 @@
   },
   "files": ["dist"],
   "main": "dist/NodeRunWebpackPlugin.js",
+  "engines": {
+    "node": ">=6"
+  },
   "peerDependencies": {
     "webpack": ">=3"
   },
